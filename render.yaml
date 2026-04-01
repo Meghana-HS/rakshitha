@@ -3,7 +3,7 @@ services:
   - type: web
     name: birthday-slideshow
     env: static
-    buildCommand: npm run build
+    buildCommand: cd frontend && npm install && npm run build
     staticPublishPath: frontend/dist
     envVars:
       - key: NODE_VERSION

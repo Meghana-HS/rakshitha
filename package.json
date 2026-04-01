@@ -4,7 +4,7 @@
   "description": "Birthday Slideshow App",
   "scripts": {
     "build": "cd frontend && npm install && npm run build",
-    "start": "cd frontend && npm start"
+    "start": "cd frontend && npm run preview"
   },
   "engines": {
     "node": ">=14.0.0"
